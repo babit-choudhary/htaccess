@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.domain.com$
+RewriteRule ^$ http://www.domain.com/folder [L,R=301]
